@@ -1,6 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
-import {PrevNext} from '../../components/prev-next/prev-next';
 
 @Component({
   templateUrl: 'build/pages/three-male/three-male.html',

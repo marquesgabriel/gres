@@ -10,80 +10,79 @@
     <ion-slide>
       <ion-item>
         <ion-label primary floating>Digite a idade</ion-label>
-        <ion-input type="number" [(ngModel)]="age"></ion-input>
+        <ion-input type="number" [(ngModel)]="age"
+        (keyup)="enter($event)"></ion-input>
       </ion-item>
-      <ion-row>
-        <ion-col width-50>
-          <button block (click)="goToPreviousSlide()">
-            Voltar
-          </button>
-        </ion-col>
-        <ion-col width-50>
-          <button block (click)="goToNextSlide()">
-            Avançar
-          </button>
-        </ion-col>
-      </ion-row>
     </ion-slide>
     <ion-slide>
       <ion-item>
         <ion-label primary floating>Digite o peso (Kg)</ion-label>
-        <ion-input type="number" [(ngModel)]="weight"></ion-input>
+        <ion-input type="number" [(ngModel)]="weight"
+        (keyup)="enter($event)"></ion-input>
       </ion-item>
-      <ion-row>
-        <ion-col width-50>
-          <button block (click)="goToPreviousSlide()">
-            Voltar
-          </button>
-        </ion-col>
-        <ion-col width-50>
-          <button block (click)="goToNextSlide()">
-            Avançar
-          </button>
-        </ion-col>
-      </ion-row>
     </ion-slide>
     <ion-slide>
       <ion-item>
         <ion-label primary floating>Digite a Altura (m)</ion-label>
-        <ion-input type="number" [(ngModel)]="height"></ion-input>
+        <ion-input type="number" [(ngModel)]="height"
+        (keyup)="enter($event)"></ion-input>
       </ion-item>
     </ion-slide>
     <ion-slide>
       <ion-item>
         <ion-label primary floating>TR</ion-label>
-        <ion-input type="number" [(ngModel)]="tr"></ion-input>
+        <ion-input type="number" [(ngModel)]="tr"
+        (keyup)="enter($event)"></ion-input>
       </ion-item>
     </ion-slide>
     <ion-slide>
       <ion-item>
         <ion-label primary floating>SI</ion-label>
-        <ion-input type="number" [(ngModel)]="si"></ion-input>
+        <ion-input type="number" [(ngModel)]="si"
+        (keyup)="enter($event)"></ion-input>
       </ion-item>
     </ion-slide>
     <ion-slide>
       <ion-item>
         <ion-label primary floating>CX</ion-label>
-        <ion-input type="number" [(ngModel)]="cx"></ion-input>
+        <ion-input type="number" [(ngModel)]="cx"
+        (keyup)="enter($event)"></ion-input>
       </ion-item>
     </ion-slide>
     <ion-slide>
       <h3>Resultados</h3>
-      <p>
-        Peso: {{weight}}Kg
-      </p>
-      <p>
-        Altura: {{height}}m
-      </p>
-      <p>
-        IMC: {{calcImc(weight, height)}}Kg/m²
-      </p>
-      <p>
-        Percentual de gordura: {{calcFat(tr, si, cx, age)}}%
-      </p>
-      <p>
-        Peso Ideal
-      </p>
+      <ion-row>
+        <ion-col>Idade:</ion-col>
+        <ion-col>{{age}} anos</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Peso:</ion-col>
+        <ion-col>{{weight}}Kg</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Altura:</ion-col>
+        <ion-col>{{height}}m</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>IMC:</ion-col>
+        <ion-col>{{calcImc()}}Kg/m²</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Gordura(%):</ion-col>
+        <ion-col>{{calcFat()}}%</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Gordura Absoluta:</ion-col>
+        <ion-col>{{calcGa()}}Kg</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Massa Corporal Magra:</ion-col>
+        <ion-col>{{calcMcm()}}Kg</ion-col>
+      </ion-row>
+      <!-- <ion-row>
+        <ion-col>Peso Corporal Esperado:</ion-col>
+        <ion-col>{{pce}}Kg</ion-col>
+      </ion-row> -->
     </ion-slide>
   </ion-slides>
 </ion-content>
