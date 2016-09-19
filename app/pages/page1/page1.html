@@ -9,55 +9,19 @@
 
 
 <ion-content class="page1">
-  <ion-slides>
-    <ion-slide>
-      <ion-row>
-        <h3>Selecione o sexo:</h3>
-      </ion-row>
-      <ion-row>
-        <ion-col  width-50>
-          <button block>
-            <ion-icon name="man"></ion-icon>
-          </button>
-        </ion-col>
-        <ion-col width-50>
-          <button block>
-            <ion-icon name="woman"></ion-icon>
-          </button>
-        </ion-col>
-      </ion-row>
-    </ion-slide>
-    <ion-slide>
-      <h3>Digite o peso:</h3>
-      <ion-icon name="speedometer"></ion-icon>
-      <ion-item>
-        <ion-label primary floating>Kg</ion-label>
-        <ion-input type="number"></ion-input>
-      </ion-item>
-    </ion-slide>
-    <ion-slide>
-      <h3>Valor 1</h3>
-      <ion-item>
-        <ion-label primary floating>CX</ion-label>
-        <ion-input type="number"></ion-input>
-      </ion-item>
-    </ion-slide>
-    <ion-slide>
-      <h3>Valor 2</h3>
-      <ion-item>
-        <ion-label primary floating>PT</ion-label>
-        <ion-input type="number"></ion-input>
-      </ion-item>
-    </ion-slide>
-    <ion-slide>
-      <h3>Valor 3</h3>
-      <ion-item>
-        <ion-label primary floating>AB</ion-label>
-        <ion-input type="number"></ion-input>
-      </ion-item>
-    </ion-slide>
-    <ion-slide>
-      <h3>Resultados:</h3>
-    </ion-slide>
-  </ion-slides>
+  <ion-row>
+    <h3>Selecione o sexo</h3>
+  </ion-row>
+  <ion-row>
+    <ion-col  width-50>
+      <button third block (click)="setGender(1)">
+        <ion-icon name="man"></ion-icon>
+      </button>
+    </ion-col>
+    <ion-col width-50>
+      <button fourth block (click)="setGender(0)">
+        <ion-icon name="woman"></ion-icon>
+      </button>
+    </ion-col>
+  </ion-row>
 </ion-content>
