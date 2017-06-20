@@ -1,6 +1,4 @@
 // http://ionicframework.com/docs/v2/theming/
-
-
 // App Shared Imports
 // --------------------------------------------------
 // These are the imports which make up the design of this app.
@@ -8,5 +6,27 @@
 // App Shared Sass variables belong in app.variables.scss.
 
 @import "../pages/page1/page1";
+  @import "../pages/three-female/three-female";
+  @import "../pages/three-male/three-male";
 
 @import "../pages/page2/page2";
+
+ion-content{
+  background-color: color($colors, gray94);
+  color: color($colors, gray28);
+}
+ion-content.menu-content{
+  background-color: color($colors, first-dark);
+  .item{
+    color: color($colors, gray94);
+    background-color: color($colors, first-dark);
+    border-bottom: solid 1px color($colors, gray94);
+    .item-inner{
+      border:none;
+    }
+  }
+}
+
+ion-item.item{
+  background-color: color($colors, gray94);
+}

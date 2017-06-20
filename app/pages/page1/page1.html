@@ -1,21 +1,26 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar first-dark>
     <button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Page Uno</ion-title>
+    <ion-title>Cálculo de 3 dobras</ion-title>
   </ion-navbar>
 </ion-header>
 
-
-<ion-content padding class="page1">
-
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button secondary menuToggle>Toggle Menu</button>
-
+<ion-content class="page1">
+  <ion-row>
+    <h3>Selecione o sexo</h3>
+  </ion-row>
+  <ion-row>
+    <ion-col  width-50>
+      <button eigth block (click)="setGender(1)">
+        <ion-icon name="man"></ion-icon>
+      </button>
+    </ion-col>
+    <ion-col width-50>
+      <button sixth block (click)="setGender(0)">
+        <ion-icon name="woman"></ion-icon>
+      </button>
+    </ion-col>
+  </ion-row>
 </ion-content>
