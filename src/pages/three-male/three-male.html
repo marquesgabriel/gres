@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-navbar color="eigth">
+    <ion-title>Masculino</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="three-male">
+  <ion-slides #sequence>
+    <ion-slide>
+      <ion-item>
+        <ion-label eigth floating>Digite a idade</ion-label>
+        <ion-input type="number" [(ngModel)]="age"
+          (keyup)="enter($event)"></ion-input>
+      </ion-item>
+    </ion-slide>
+    <ion-slide>
+      <ion-item>
+        <ion-label eigth floating>Digite o peso (Kg)</ion-label>
+        <ion-input type="number" [(ngModel)]="weight"
+        (keyup)="enter($event)"></ion-input>
+      </ion-item>
+    </ion-slide>
+    <ion-slide>
+      <ion-item>
+        <ion-label eigth floating>Digite a Altura (m)</ion-label>
+        <ion-input type="number" [(ngModel)]="height"
+        (keyup)="enter($event)"></ion-input>
+      </ion-item>
+    </ion-slide>
+    <ion-slide>
+      <ion-item>
+        <ion-label eigth floating>PT</ion-label>
+        <ion-input type="number" [(ngModel)]="pt"
+        (keyup)="enter($event)"></ion-input>
+      </ion-item>
+    </ion-slide>
+    <ion-slide>
+      <ion-item>
+        <ion-label eigth floating>AB</ion-label>
+        <ion-input type="number" [(ngModel)]="ab"
+        (keyup)="enter($event)"></ion-input>
+      </ion-item>
+    </ion-slide>
+    <ion-slide>
+      <ion-item>
+        <ion-label eigth floating>CX</ion-label>
+        <ion-input type="number" [(ngModel)]="cx"
+        (keyup)="enter($event)"></ion-input>
+      </ion-item>
+      <!-- <button second block (click)=calc()>Calcular</button> -->
+    </ion-slide>
+    <ion-slide>
+      <h3>Resultados</h3>
+      <ion-row>
+        <ion-col>Idade:</ion-col>
+        <ion-col>{{age}} anos</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Peso:</ion-col>
+        <ion-col>{{weight}}Kg</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Altura:</ion-col>
+        <ion-col>{{height}}m</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>IMC:</ion-col>
+        <ion-col>{{calcImc()}}Kg/m²</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Gordura(%):</ion-col>
+        <ion-col>{{calcFat()}}%</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Gordura Absoluta:</ion-col>
+        <ion-col>{{calcGa()}}Kg</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Massa Corporal Magra:</ion-col>
+        <ion-col>{{calcMcm()}}Kg</ion-col>
+      </ion-row>
+      <!-- <ion-row>
+        <ion-col>Peso Corporal Esperado:</ion-col>
+        <ion-col>{{pce}}Kg</ion-col>
+      </ion-row> -->
+    </ion-slide>
+  </ion-slides>
+</ion-content>
