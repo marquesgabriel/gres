@@ -38,4 +38,4 @@ script:
 
 branch:
   only:
-  - master
+    - master
