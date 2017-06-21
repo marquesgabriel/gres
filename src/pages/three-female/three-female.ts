@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
 
 @Component({
-  templateUrl: 'build/pages/three-female/three-female.html',
+  templateUrl: 'three-female.html',
   providers: [Slides]
 })
 export class ThreeFemale {

@@ -5,7 +5,7 @@ import {ThreeMale} from '../three-male/three-male';
 import {ThreeFemale} from '../three-female/three-female';
 
 @Component({
-  templateUrl: 'build/pages/page1/page1.html'
+  templateUrl: 'page1.html'
 })
 export class Page1 {
   constructor(public navCtrl: NavController) {
