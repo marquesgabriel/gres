@@ -1,0 +1,2453 @@
+{
+	"id": 0,
+	"name": "gres",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 111,
+			"name": "\"app/app.component\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/app/app.component.ts",
+			"children": [
+				{
+					"id": 112,
+					"name": "MyApp",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'app.html'\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 114,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 115,
+									"name": "new MyApp",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 116,
+											"name": "platform",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Platform"
+											}
+										},
+										{
+											"id": 117,
+											"name": "statusBar",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "StatusBar"
+											}
+										},
+										{
+											"id": 118,
+											"name": "splashScreen",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "SplashScreen"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "MyApp",
+										"id": 112
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "app/app.component.ts",
+									"line": 12,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 113,
+							"name": "rootPage",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "app/app.component.ts",
+									"line": 12,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							},
+							"defaultValue": " TabsPage"
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								114
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								113
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "app/app.component.ts",
+							"line": 11,
+							"character": 18
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						112
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app/app.component.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 119,
+			"name": "\"app/app.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/app/app.module.ts",
+			"children": [
+				{
+					"id": 120,
+					"name": "AppModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  declarations: [\n    MyApp,\n    AboutPage,\n    TabsPage,\n    Page1,\n    Page2,\n    ThreeFemale,\n    ThreeMale\n  ],\n  imports: [\n    BrowserModule,\n    IonicModule.forRoot(MyApp)\n  ],\n  bootstrap: [IonicApp],\n  entryComponents: [\n    MyApp,\n    AboutPage,\n    TabsPage,\n    Page1,\n    Page2,\n    ThreeFemale,\n    ThreeMale\n  ],\n  providers: [\n    StatusBar,\n    SplashScreen,\n    {provide: ErrorHandler, useClass: IonicErrorHandler}\n  ]\n}"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "app/app.module.ts",
+							"line": 47,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						120
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "app/app.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 121,
+			"name": "\"app/main\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/app/main.ts",
+			"sources": [
+				{
+					"fileName": "app/main.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"pages/about/about\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/pages/about/about.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "AboutPage",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'about.html',\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 3,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 5,
+									"name": "new AboutPage",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 6,
+											"name": "navCtrl",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "NavController"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "AboutPage",
+										"id": 2
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/about/about.ts",
+									"line": 7,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 4,
+							"name": "navCtrl",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isConstructorProperty": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/about/about.ts",
+									"line": 9,
+									"character": 29
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "NavController"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								3
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								4
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "pages/about/about.ts",
+							"line": 7,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "pages/about/about.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 77,
+			"name": "\"pages/page1/page1\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/pages/page1/page1.ts",
+			"children": [
+				{
+					"id": 78,
+					"name": "Page1",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'page1.html'\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 79,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 81,
+									"name": "new Page1",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 82,
+											"name": "navCtrl",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "NavController"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Page1",
+										"id": 78
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/page1/page1.ts",
+									"line": 10,
+									"character": 20
+								}
+							]
+						},
+						{
+							"id": 80,
+							"name": "navCtrl",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isConstructorProperty": true,
+								"isExported": true,
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/page1/page1.ts",
+									"line": 11,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "NavController"
+							}
+						},
+						{
+							"id": 83,
+							"name": "setGender",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 84,
+									"name": "setGender",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 85,
+											"name": "gender",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/page1/page1.ts",
+									"line": 14,
+									"character": 11
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								79
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								80
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								83
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "pages/page1/page1.ts",
+							"line": 10,
+							"character": 18
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						78
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "pages/page1/page1.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 86,
+			"name": "\"pages/page2/page2\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/pages/page2/page2.ts",
+			"children": [
+				{
+					"id": 87,
+					"name": "Page2",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'page2.html'\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 95,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 97,
+									"name": "new Page2",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 98,
+											"name": "navCtrl",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "NavController"
+											}
+										},
+										{
+											"id": 99,
+											"name": "navParams",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "NavParams"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Page2",
+										"id": 87
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/page2/page2.ts",
+									"line": 10,
+									"character": 60
+								}
+							]
+						},
+						{
+							"id": 89,
+							"name": "icons",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/page2/page2.ts",
+									"line": 9,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "string"
+								}
+							}
+						},
+						{
+							"id": 90,
+							"name": "items",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/page2/page2.ts",
+									"line": 10,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Array",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 91,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 94,
+													"name": "icon",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "pages/page2/page2.ts",
+															"line": 10,
+															"character": 49
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												},
+												{
+													"id": 93,
+													"name": "note",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "pages/page2/page2.ts",
+															"line": 10,
+															"character": 35
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												},
+												{
+													"id": 92,
+													"name": "title",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "pages/page2/page2.ts",
+															"line": 10,
+															"character": 21
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														94,
+														93,
+														92
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "pages/page2/page2.ts",
+													"line": 10,
+													"character": 15
+												}
+											]
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": 96,
+							"name": "navCtrl",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isConstructorProperty": true,
+								"isExported": true,
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/page2/page2.ts",
+									"line": 12,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "NavController"
+							}
+						},
+						{
+							"id": 88,
+							"name": "selectedItem",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/page2/page2.ts",
+									"line": 8,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 100,
+							"name": "itemTapped",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 101,
+									"name": "itemTapped",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 102,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 103,
+											"name": "item",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/page2/page2.ts",
+									"line": 30,
+									"character": 12
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								95
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								89,
+								90,
+								96,
+								88
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								100
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "pages/page2/page2.ts",
+							"line": 7,
+							"character": 18
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						87
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "pages/page2/page2.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 104,
+			"name": "\"pages/tabs/tabs\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/pages/tabs/tabs.ts",
+			"children": [
+				{
+					"id": 105,
+					"name": "TabsPage",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'tabs.html'\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 109,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 110,
+									"name": "new TabsPage",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"name": "TabsPage",
+										"id": 105
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/tabs/tabs.ts",
+									"line": 14,
+									"character": 23
+								}
+							]
+						},
+						{
+							"id": 106,
+							"name": "tab1Root",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/tabs/tabs.ts",
+									"line": 12,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Page1",
+								"id": 78
+							},
+							"defaultValue": " Page1"
+						},
+						{
+							"id": 107,
+							"name": "tab2Root",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/tabs/tabs.ts",
+									"line": 13,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Page2",
+								"id": 87
+							},
+							"defaultValue": " Page2"
+						},
+						{
+							"id": 108,
+							"name": "tab3Root",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/tabs/tabs.ts",
+									"line": 14,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "AboutPage",
+								"id": 2
+							},
+							"defaultValue": " AboutPage"
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								109
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								106,
+								107,
+								108
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "pages/tabs/tabs.ts",
+							"line": 10,
+							"character": 21
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						105
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "pages/tabs/tabs.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 42,
+			"name": "\"pages/three-female/three-female\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/pages/three-female/three-female.ts",
+			"children": [
+				{
+					"id": 43,
+					"name": "ThreeFemale",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'three-female.html',\n  providers: [Slides]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 56,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 58,
+									"name": "new ThreeFemale",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 59,
+											"name": "navCtrl",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "NavController"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ThreeFemale",
+										"id": 43
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 21,
+									"character": 13
+								}
+							]
+						},
+						{
+							"id": 50,
+							"name": "age",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 15,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 47,
+							"name": "cx",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 12,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 52,
+							"name": "fat",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 18,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 53,
+							"name": "ga",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 19,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 48,
+							"name": "height",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 13,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 51,
+							"name": "imc",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 17,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 54,
+							"name": "mcm",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 20,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 57,
+							"name": "navCtrl",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isConstructorProperty": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 23,
+									"character": 29
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "NavController"
+							}
+						},
+						{
+							"id": 55,
+							"name": "pce",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 21,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 46,
+							"name": "si",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 11,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 44,
+							"name": "slides",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"decorators": [
+								{
+									"name": "ViewChild",
+									"type": {
+										"type": "reference",
+										"name": "ViewChild"
+									},
+									"arguments": {
+										"selector": "'sequence'"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 9,
+									"character": 31
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Slides"
+							}
+						},
+						{
+							"id": 45,
+							"name": "tr",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 10,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 49,
+							"name": "weight",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 14,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 66,
+							"name": "calcFat",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 67,
+									"name": "calcFat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 34,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 68,
+							"name": "calcGa",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 69,
+									"name": "calcGa",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 46,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 64,
+							"name": "calcImc",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 65,
+									"name": "calcImc",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 31,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 70,
+							"name": "calcMcm",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 71,
+									"name": "calcMcm",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 51,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 72,
+							"name": "calcPce",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 73,
+									"name": "calcPce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 56,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 74,
+							"name": "enter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 75,
+									"name": "enter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 76,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 62,
+									"character": 7
+								}
+							]
+						},
+						{
+							"id": 60,
+							"name": "goToNextSlide",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 61,
+									"name": "goToNextSlide",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 25,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 62,
+							"name": "goToPreviousSlide",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 63,
+									"name": "goToPreviousSlide",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-female/three-female.ts",
+									"line": 28,
+									"character": 19
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								56
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								50,
+								47,
+								52,
+								53,
+								48,
+								51,
+								54,
+								57,
+								55,
+								46,
+								44,
+								45,
+								49
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								66,
+								68,
+								64,
+								70,
+								72,
+								74,
+								60,
+								62
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "pages/three-female/three-female.ts",
+							"line": 8,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						43
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "pages/three-female/three-female.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "\"pages/three-male/three-male\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/zaphod/desenvolvimento/gres/src/pages/three-male/three-male.ts",
+			"children": [
+				{
+					"id": 8,
+					"name": "ThreeMale",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Component",
+							"type": {
+								"type": "reference",
+								"name": "Component"
+							},
+							"arguments": {
+								"obj": "{\n  templateUrl: 'three-male.html',\n  providers: [Slides]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 21,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 23,
+									"name": "new ThreeMale",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 24,
+											"name": "navCtrl",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "NavController"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ThreeMale",
+										"id": 8
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 21,
+									"character": 13
+								}
+							]
+						},
+						{
+							"id": 11,
+							"name": "ab",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 11,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 15,
+							"name": "age",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 15,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 12,
+							"name": "cx",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 12,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 17,
+							"name": "fat",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 18,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 18,
+							"name": "ga",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 19,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 13,
+							"name": "height",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 13,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 16,
+							"name": "imc",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 17,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 19,
+							"name": "mcm",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 20,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 22,
+							"name": "navCtrl",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isConstructorProperty": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 23,
+									"character": 29
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "NavController"
+							}
+						},
+						{
+							"id": 20,
+							"name": "pce",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 21,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 10,
+							"name": "pt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 10,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 9,
+							"name": "slides",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"decorators": [
+								{
+									"name": "ViewChild",
+									"type": {
+										"type": "reference",
+										"name": "ViewChild"
+									},
+									"arguments": {
+										"selector": "'sequence'"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 9,
+									"character": 31
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Slides"
+							}
+						},
+						{
+							"id": 14,
+							"name": "weight",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 14,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 31,
+							"name": "calcFat",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 32,
+									"name": "calcFat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 34,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 33,
+							"name": "calcGa",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 34,
+									"name": "calcGa",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 46,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 29,
+							"name": "calcImc",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 30,
+									"name": "calcImc",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 31,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 35,
+							"name": "calcMcm",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 36,
+									"name": "calcMcm",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 51,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 37,
+							"name": "calcPce",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 38,
+									"name": "calcPce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 56,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 39,
+							"name": "enter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 40,
+									"name": "enter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 41,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 62,
+									"character": 7
+								}
+							]
+						},
+						{
+							"id": 25,
+							"name": "goToNextSlide",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 26,
+									"name": "goToNextSlide",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 25,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 27,
+							"name": "goToPreviousSlide",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 28,
+									"name": "goToPreviousSlide",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "pages/three-male/three-male.ts",
+									"line": 28,
+									"character": 19
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								21
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								11,
+								15,
+								12,
+								17,
+								18,
+								13,
+								16,
+								19,
+								22,
+								20,
+								10,
+								9,
+								14
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								31,
+								33,
+								29,
+								35,
+								37,
+								39,
+								25,
+								27
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "pages/three-male/three-male.ts",
+							"line": 8,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						8
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "pages/three-male/three-male.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				111,
+				119,
+				121,
+				1,
+				77,
+				86,
+				104,
+				42,
+				7
+			]
+		}
+	]
+}

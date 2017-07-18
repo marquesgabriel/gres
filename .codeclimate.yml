@@ -12,7 +12,10 @@ engines:
       - javascript:
 exclude_paths:
 - "hooks/*"
-- "res/*"
-- "scss/*"
+- "node_modules/*"
+- "platforms/*"
+- "plugins/*"
+- "resources/*"
 - "tests/*"
 - "gulpfile.js"
+- "www/*"
