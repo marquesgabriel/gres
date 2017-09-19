@@ -19,6 +19,7 @@ npm-debug.log*
 coverage/
 dist/
 docs/
+doc-final.json
 node_modules/
 tmp/
 temp/
