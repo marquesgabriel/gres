@@ -1,4 +1,7 @@
 .three-female {
   $label-md-text-color-focused: color($colors, sixth);
   $text-input-md-highlight-color: color($colors, sixth);
+  ion-slides.slides{
+    height: auto;
+  }
 }
