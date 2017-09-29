@@ -1,3 +1,14 @@
 .page1 {
-
+  ion-row{
+    height: 100%;
+    .man-opt{
+      height: 100%;
+      background-image: url("../../assets/men.png");
+      background-color: rgba(0,0,0,0);
+      background-size: cover;
+      button{
+        height: 100%;
+      }
+    }
+  }
 }

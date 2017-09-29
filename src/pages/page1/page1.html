@@ -7,22 +7,13 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="page1" padding>
-  <ion-row color="gray28">
-    <h3>
-      <div color="gray28">
-        Selecione o sexo
-      </div>
-    </h3>
-  </ion-row>
+<ion-content class="page1">
   <ion-row>
-    <ion-col  width-50>
-      <button ion-button icon-left color="eigth" block (click)="setGender(1)">
-        <ion-icon name="man"></ion-icon>
-        Masculino
+    <ion-col class="man-opt" col-6>
+      <button ion-button clear block (click)="setGender(1)">
       </button>
     </ion-col>
-    <ion-col width-50>
+    <ion-col col-6>
       <button ion-button icon-left color="sixth" block (click)="setGender(0)">
         <ion-icon name="woman"></ion-icon>
         Feminino
